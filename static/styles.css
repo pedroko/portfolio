@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Pacifico&family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sky {
+  overflow-x: hidden;
+  position: relative;
+  background-image: linear-gradient(#79f0c2, #cae2f0);
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.autor{
+  overflow: hidden;
+  position: relative;
+  display: flex;
+
+}
+.sky img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#cloud-one {
+  width: 20%;
+  bottom: 40%;
+  margin-left: 80%;
+}
+
+#cloud-two {
+  width: 25%;
+  bottom: 75%;
+  margin-left: 60%;
+}
+
+#cloud-three {
+  width: 30%;
+  bottom: 60%;
+  margin-right: 80%;
+}
+
+#cloud-four {
+  width: 24%;
+  bottom: 70%;
+  margin-right: 35%;
+}
+
+#cloud-five {
+  width: 23%;
+  bottom: 50%;
+  margin-left: 10%;
+}
+
+#javascript {
+  width: 6%;
+  bottom: 20%;
+  margin-right: 35%;
+}
+
+#react {
+  width: 6%;
+  bottom: 20%;
+  margin-right: 65%;
+}
+
+#mongodb {
+  width: 6%;
+  bottom: 20%;
+  margin-left: 65%;
+}
+
+#air-balloon {
+  width: 6%;
+  bottom: 15%;
+  margin-left: 15%;
+}
+
+.info {
+  /*overflow-x: hidden;*/
+  position: relative;
+  width: 100%;
+  height: flex;
+  background-color: #92e97c;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+  text-shadow: 0px 0px 5px #92e97c;
+
+  background: linear-gradient(-135deg, rgb(34, 152, 54) 10%, transparent),
+    repeating-linear-gradient(
+      45deg,
+      rgb(34, 152, 69) 0%,
+      rgba(31, 94, 36, 0.6) 5%,
+      transparent 5%,
+      transparent 10%
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(34, 152, 54, 0.4) 0%,
+      rgba(42, 94, 31, 0.5) 5%,
+      transparent 5%,
+      transparent 10%
+    );
+  background-color: rgba(67, 152, 34, 0.25);
+}
+
+h1 {
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  text-align: justify;
+}
+
+h4 {
+  color: rgb(15, 10, 10);
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: justify;
+}
+
+h3 {
+  color: rgb(15, 10, 10);
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: justify;
+}
+
+h5 {
+  color: rgb(15, 10, 10);
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: justify;
+}
+
+h6 {
+  color: rgba(20, 240, 192, 0.562);
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+
+h7{
+  color: rgb(16, 80, 66);
+  font-family: "Pacifico", cursive;
+
+}
+
+
+
+p {
+  color: black;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+p1 {
+  color: black;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+p2 {
+  color: rgba(20, 240, 192, 0.562);
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+a {
+  color: black;
+  font-family: "Anton", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.section3 {
+  background: radial-gradient(
+        1.5em 6.28571em at 1.95em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        1.5em 6.28571em at -0.45em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      1.5em 5.5em,
+    radial-gradient(
+        2.3em 4.57143em at 2.99em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.3) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        2.3em 4.57143em at -0.69em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0.3) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      2.3em 4em,
+    radial-gradient(
+        3.5em 6.28571em at 4.55em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      0 0,
+    radial-gradient(
+        3.5em 6.28571em at -1.05em,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0.25) 55%,
+        rgba(255, 255, 255, 0) 55%
+      )
+      3.5em 5.5em,
+    radial-gradient(#99ce1d, #49e778);
+  background-color: mediumspringgreen;
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em,
+    3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+}
+
+.card-1 {
+  background-color: rgb(25, 226, 142);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 35px;
+  min-width: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  text-align: left;
+  /*background-image: linear-gradient(#4cf3c9, #1be6b3);*/
+  box-shadow: 0 2px 4px rgba(54, 156, 54, 0.5) inset, 0 1px 0 rgb(156, 230, 19);
+  color: #9cd896;
+}
+
+.section4 {
+  background: linear-gradient(135deg, rgb(42, 189, 5) 25%, transparent 25%) -50px
+      0,
+    linear-gradient(225deg, rgb(42, 189, 5) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, rgb(42, 189, 5) 25%, transparent 25%),
+    linear-gradient(45deg, rgb(42, 189, 5) 25%, transparent 25%);
+  background-size: 2em 2em;
+  background-color: #c2ee95;
+}
+
+.section5 {
+  padding: 0;
+  margin: 0;
+  background-color: #b5f700;
+  background-size: 56px 56px;
+  background-image: linear-gradient(135deg, transparent 55%, #b5f700 55%),
+    radial-gradient(
+      transparent 6px,
+      #ffffff 6px,
+      #ffffff 10px,
+      transparent 10px,
+      transparent 15px,
+      #ffffff 15px,
+      #ffffff 19px,
+      transparent 19px,
+      transparent 24px,
+      #ffffff 24px,
+      #ffffff 28px,
+      transparent 28px
+    );
+}
+.card2 {
+  height: 900px;
+  width:460px;
+  min-width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px; 
+  background-color: rgb(109, 127, 151, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color: #85796b;
+}
+
+.card2 img {
+  position: relative;
+  width: 100%;
+  bottom: 0;  
+}
+
+.card-3 {
+  background-color: rgb(109, 127, 151, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color: #85796b;
+  border-radius: 10px;
+  width:auto;
+  height:auto;
+}
+
+
+
+
+.images {
+  height: 50%;
+  overflow: hidden; 
+  width: auto; 
+}
+
+.images img{
+  position: relative;
+  width: 100%;
+  bottom: 0; 
+}
+
+.images1 {
+  height: 750px;
+  overflow: hidden;
+  width: 100%;
+  
+  overflow-x: hidden;
+}
+
+.noteApp {
+  width: 100%;
+  height: 110%;
+}
+
+.crud-svelte {
+  width: 100%;
+}
+
+.card-images {
+  background: linear-gradient(
+      90deg,
+      rgba(183, 223, 38, 0.7) 50%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(32, 113, 120, 0.3) 50%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(240, 255, 102, 0.3) 50%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(23, 76, 79, 0.1) 50%,
+      rgba(255, 255, 255, 0) 50%
+    );
+  background-size: 7em 7em, 5em 5em, 3em 3em, 1em 1em;
+  background-color: #bef5c5;
+  font: 10px/1.4 "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+.main-header {
+  position: relative;
+  background: url(../images/piramide1.jpg);
+  background-size: cover;
+  min-height :600px;
+}
+
+.background-overlay {
+    position: relative;
+    background: rgba(59, 152, 90, 0.7);
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+
+}
+
+.images .card-img-top{
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+
+}
+
+.images .card-img-top:hover{
+  transform: scale(1.8);
+}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
+
+
+.rainbow{
+  height: auto;
+  width:auto;
+  background-color: rgb(10, 14, 11);
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.rainbow-4:hover{
+  background-image:     linear-gradient(
+     to right, 
+     #E7484F,
+     #F68B1D, 
+     #FCED00,
+     #009E4F,
+     #00AAC3,
+     #732982
+   );
+ animation:slidebg 1s linear infinite;
+}
+
+
+@keyframes slidebg {
+ to {
+   background-position:20vw;
+ }
+}
